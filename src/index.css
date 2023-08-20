@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --leaflet-tile-filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7);
+  }
+  body {
+    @apply font-primary text-paragraph;
+  }
+  a {
+    @apply hover:text-heading transition;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-heading;
+  }
+  .h1 {
+    @apply text-[36px] leading-[46px] lg:text-[70px] lg:leading-[80px] font-extrabold;
+  }
+  .h2 {
+    @apply text-[26px] leading-[36px] lg:text-[50px] lg:leading-[60px] font-bold;
+  }
+  .h3 {
+    @apply text-[18px] leading-[28px] lg:text-[34px] lg:leading-[44px] font-semibold;
+  }
+  .section-sm {
+    @apply py-[70px];
+  }
+  .section-lg {
+    @apply py-[150px];
+  }
+  .btn {
+    @apply font-medium rounded text-base bg-shape;
+  }
+  .btn-sm {
+    @apply h-[50px] px-[25px];
+  }
+  .btn-md {
+    @apply h-[50px] px-[16px];
+  }
+  .btn-lg {
+    @apply h-[50px] rounded-md px-[40px];
+  }
+  .btn-orange {
+    @apply bg-orange text-white hover:bg-orange-hover transition;
+  }
+  .form-control {
+    @apply h-[50px] border border-stroke-2 rounded px-3 placeholder:text-paragraph placeholder:text-[14px] text-paragraph outline-none w-full;
+  }
+  .error-message {
+    @apply text-[14px] text-pink-200 leading-[18px] lg:leading-[8px];
+  }
+  .leaflet-container {
+    @apply w-[100%] h-[100%];
+  }
+  @media screen and (max-width: 640px) {
+    .btn {
+      @apply text-[12px]
+    }
+  }
+}
