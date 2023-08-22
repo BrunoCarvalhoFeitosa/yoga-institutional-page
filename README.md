@@ -63,7 +63,7 @@ https://github.com/BrunoCarvalhoFeitosa/yoga-institutional-page/assets/46093815/
 
 ### Hospedagem
 
-O site estpa em produção neste link: (https://yoga-institutional-page.vercel.app).
+O site está em produção neste link: (https://yoga-institutional-page.vercel.app).
 
 <!-- GETTING STARTED -->
 ## Iniciando o projeto
