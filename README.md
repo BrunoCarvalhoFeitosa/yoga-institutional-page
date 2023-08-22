@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/BrunoCarvalhoFeitosa/FacebookClone">
+  <a href="https://github.com/BrunoCarvalhoFeitosa/yoga-institutional-page">
     <img src="public\logo.png" alt="Logo" />
   </a>
 
