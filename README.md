@@ -30,10 +30,8 @@
         <li><a href="#instalação">Instalação</a></li>
       </ul>
     </li>
-    <li><a href="#uso">Uso</a></li>
     <li><a href="#licença">Licença</a></li>
     <li><a href="#contato">Contato</a></li>
-    <li><a href="#reconhecimentos">Reconhecimentos</a></li>
   </ol>
 </details>
 
