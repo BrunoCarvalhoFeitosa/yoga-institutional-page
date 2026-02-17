@@ -31,7 +31,7 @@
       </ul>
     </li>
     <li><a href="#uso">Uso</a></li>
-    <li><a href="#license">Licenças</a></li>
+    <li><a href="#licença">Licença</a></li>
     <li><a href="#contato">Contato</a></li>
     <li><a href="#reconhecimentos">Reconhecimentos</a></li>
   </ol>
@@ -94,7 +94,7 @@ Primeiramente será necessário clonar este projeto em (https://github.com/Bruno
    ```   
 
 <!-- LICENSE -->
-## License
+## Licença
 
 Distribuído sob a licença MIT.
 
